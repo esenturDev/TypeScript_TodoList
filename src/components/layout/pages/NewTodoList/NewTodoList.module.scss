@@ -1,0 +1,39 @@
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 4rem;
+	h1 {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 1rem;
+		font-size: 2.5rem;
+		font-weight: 700;
+	}
+	.form {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1rem;
+		.inputs {
+			background-color: #fff;
+			color: blue;
+		}
+		button {
+			background-color: rgb(141, 141, 226);
+			color: #fff;
+			&:active {
+				color: blue;
+				background-color: rgb(141, 141, 226);
+			}
+		}
+	}
+	.cards {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		gap: 1rem;
+	}
+}

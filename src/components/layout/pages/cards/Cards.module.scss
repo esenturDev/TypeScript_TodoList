@@ -1,0 +1,41 @@
+.divCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1.5rem;
+	margin-top: 2rem;
+	.card {
+		width: 650px;
+		padding-inline: 1rem;
+		height: 65px;
+		border-radius: 12px;
+		border: 3px solid black;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: palegoldenrod;
+		h2 {
+			color: black;
+			font-size: 1.5rem;
+			font-weight: 600;
+		}
+		p {
+			color: black;
+			font-size: 1.8rem;
+			font-weight: 600;
+		}
+		.inputs {
+			background-color: #fff;
+			color: blue;
+		}
+		button {
+			background-color: rgb(141, 141, 226);
+			color: #fff;
+			&:active {
+				color: blue;
+				background-color: rgb(141, 141, 226);
+			}
+		}
+	}
+}
